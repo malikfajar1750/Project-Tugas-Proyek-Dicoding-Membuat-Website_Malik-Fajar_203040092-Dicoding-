@@ -1,0 +1,201 @@
+*{
+    margin: 6px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 750px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  @media (min-width: 40em) and (max-width: 84em) {
+    body {
+      background-color: purple;
+    }
+  } 
+body{
+    background-color:#FFFFFF;
+    margin: 10px;
+    
+    /* overflow: hidden; */
+}
+
+.Container{
+    background-color: #92B4EC;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* z-index: 1; */
+}
+header h1{
+    padding: 19px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:31px;
+    color: #FFFFFF;
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+li a:hover{
+    background-color: #000000;
+    color: aqua;
+    padding: 10px;
+    margin: 20px;
+}
+main {
+    background-color: #5373a8;
+    width: 70%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    padding-bottom:40px;
+    min-width: 200px;
+    
+}
+/* .p0{
+    color: #FFFFFF;
+    text-align: justify;
+    padding-top: 30px;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+ .h2B ,h2{
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:'M PLUS 1p', sans-serif;
+ }
+ .h2A ,h2{
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:'M PLUS 1p', sans-serif;
+ }
+
+.benerin img{
+    width: 400px;
+    padding-bottom: 20px;
+ 
+ }
+ .benerin{
+    text-align: center;
+    padding: 20px;
+ }
+ p,.p1{
+    padding: 20px;
+ }
+ .benerin .p1{
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    line-height: 23px;
+    padding-top: 30px;
+ }
+ .benerin,.img2{
+    text-align: center;
+ }
+.benerin .gp1{
+    font: 14px/24px serif;
+    font-family: sans-serif;
+    color: white;
+    padding-bottom: 12px 15px 14px 15px;
+
+}
+.sisi{
+    padding-left: 20px;
+    color: #FFFFFF;
+    font: 12px/20px serif;
+    font-family: 'Varela Round', sans-serif;
+}
+.Bawah,.sisi{
+    margin-top: 10px;
+    padding: 2px 5px 2px 5px;
+    line-height: 12px;
+
+}
+ aside{
+    background-color: #65b0bd;
+    width: 29%;
+    height: 599px;
+    
+     /* margin-block-end: 300px; */
+    justify-content: center;
+    align-items: center;
+}
+div .bgside {
+    width: 120px;
+    float: left;
+    padding: 10px;
+    padding-block: 5px;
+    padding-left: 20px;
+}
+.bawah{
+    margin-top: 20px;
+}
+.pside{
+    text-align: justify;
+    padding-left: 20px;
+    color: #FFFFFF;
+    font: 13px/20px serif;
+    letter-spacing: 1.2px;
+    padding: 20px;
+    font-family: 'Varela Round', sans-serif;
+    padding-block: 5px;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(152, 167, 180);
+    font-size: 23px 24px;
+    color: white;
+    text-align:center;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+/* Clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
